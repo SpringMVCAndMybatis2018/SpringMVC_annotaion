@@ -8,6 +8,8 @@
 </head>
 <body>
 访问request作用范围域中的user对象：${requestScope.user.username }<br>
+${requestScope.user.loginname}
+${requestScope.user.password}
 <br>
 </body>
 </html>
